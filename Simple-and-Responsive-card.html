@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simple Responsive Card</title>
+  </head>
+
+  <body>
+    <div class="flex items-center justify-center h-screen bg-zinc-200">
+      <div class="rounded-xl shadow-xl bg-zinc-500 p-2 m-8">
+        <div class="flex flex-col rounded-xl lg:flex-row">
+          <img
+            src="../tailwind-sandbox/test.jpg"
+            alt="not rendered"
+            class="h-56 rounded-md"
+          />
+
+          <div class="p-2 m-2 lg:p-4">
+            <h3 class="text-white font-semibold text-center lg:text-2xl lg:m-2">
+              Contact me
+            </h3>
+            <input
+              type="text"
+              placeholder="Enter your gmail"
+              class="p-2 rounded-xl m-1 text-center  focus:outline-none"
+            />
+            <button
+              class="rounded-xl p-2 m-1 bg-teal-300 block  w-full hover:text-white hover:bg-teal-500 transition duration-500"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
